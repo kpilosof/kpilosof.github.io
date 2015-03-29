@@ -1,0 +1,53 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+#container {
+  border:none;
+}
+
+nav {
+  display: none;
+}
+
+h1 {
+  font-size: 24pt;
+  font-family: serif;
+  color: black;
+}
+
+h2 {
+  font-size: 18pt;
+  font-family: serif;
+  color: black;
+}
+
+a:visited, a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a[href$=".html"] {
+  display: none;
+}
+
+a[href^="http://"] {
+  display: inline;
+}
+
+a[href^="http://"]:after { content: " (" attr(href) ") "; }
+
+a[href^="http://"],
+  display: inline;
+}
+
+footer p.web {
+  display: none;
+  }

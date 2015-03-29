@@ -1,12 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700|Roboto+Slab:700,400);
 
-h1 {
-  font-family: 'Roboto Slab', serif;
-  font-weight:400px;
-  font-size:40px;
-  color: purple;
-}
-
 body {
   background: url("../img/upfeathers.png");
   font-family: 'Titillium Web', serif;
@@ -16,10 +9,16 @@ body {
   line-height:1.5em;
 }
 
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight:400px;
+  font-size:40px;
+  color: purple;
+}
+
 h3 {
   font-family: 'Titillium Web', serif;
 }
-
 
 nav {
   margin: 0 auto;
@@ -62,10 +61,18 @@ h1, address {
   text-align: center;
 }
 
+a:visited {
+    color: purple;
+}
+
+a:hover {
+  color: red;
+}
+
 #container {
   margin: 0 auto;
   width: 800px;
   border: 1px solid #222;
-  padding: 2em; /* 16px*/
+  padding: 2em;
   background: rgba(255,255,255,0.9)
 }
