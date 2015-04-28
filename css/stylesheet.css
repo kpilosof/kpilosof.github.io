@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700|Roboto+Slab:700,400);
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower|Titillium+Web|Roboto+Slab);
 
 body {
   background: url("../img/upfeathers.png");
@@ -13,7 +13,7 @@ h1 {
   font-family: 'Roboto Slab', serif;
   font-weight:400px;
   font-size:40px;
-  color: purple;
+  color: pink;
 }
 
 h3 {
@@ -22,17 +22,25 @@ h3 {
 
 nav {
   margin: 0 auto;
-  width: 750px;
+  width: 315px;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style: none;
 }
 
 nav li {
   display: inline-block;
-  padding: 1em;
-  color: red;
+  color: black;
+  width: 100px;
+  text-align: center;
 }
 
 p {
-  line-height: .5em;
+  line-height: 1.2em;
 }
 
 nav, ul, li {
@@ -61,12 +69,30 @@ h1, address {
   text-align: center;
 }
 
-a:visited {
-    color: purple;
+nav a,
+nav a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: pink;
+  font-size: 30px;
 }
 
 a:hover {
-  color: red;
+  color: pink;
+}
+
+h1 a {
+  color: pink;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+h2, h3, h4 {
+  color: black;
+  line-height: .5em;
 }
 
 #container {
