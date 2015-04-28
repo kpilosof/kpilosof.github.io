@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700|Roboto+Slab:700,400);
+
+index.css
+
+body {
+  background: url("../img/upfeathers.png");
+  font-family: 'Titillium Web', serif;
+  font-size:14px;
+  text-align: center;
+  padding: 100px;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'Titillium Web', serif;
+  font-size:26px;
+  text-align: center;
+  line-height:.5em;
+
+}
+
+div {
+  align: center;
+}
+
+
+nav a,
+nav a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+h1 a {
+  color: pink;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+h2, h3, h4 {
+  color: black;
+  line-height: .5em;
+}
+
+link {
+  color: black;
+}
+
+a:hover {
+  color: pink;
+}
+
+#container {
+  margin: 0 auto;
+  width: 800px;
+  border: 1px solid #222;
+  padding: 2em;
+  background: rgba(255,255,255,0.9)
+}
