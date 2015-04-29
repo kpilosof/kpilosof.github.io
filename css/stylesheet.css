@@ -6,7 +6,7 @@ body {
   font-size:14px;
   text-align: left;
   padding: 40px;
-  line-height:1.5em;
+  line-height:1.5;
 }
 
 h1 {
@@ -40,15 +40,11 @@ nav li {
 }
 
 p {
-  line-height: 1.2em;
+  line-height: 1.2;
 }
 
 nav, ul, li {
-  line-height: 1.2em;
-}
-
-h2 {
-  line-height:.8em;
+  line-height: 1.2;
 }
 
 article {
@@ -62,7 +58,7 @@ h4 {
 }
 
 #education, #career, #writing, #experiences {
-  line-height:1em;
+  line-height:1;
 }
 
 h1, address {
@@ -92,7 +88,7 @@ h1 a {
 
 h2, h3, h4 {
   color: black;
-  line-height: .5em;
+  line-height: 0.5;
 }
 
 #container {
@@ -101,4 +97,8 @@ h2, h3, h4 {
   border: 1px solid #222;
   padding: 2em;
   background: rgba(255,255,255,0.9)
+}
+
+img {
+  border: 1px solid white;
 }
