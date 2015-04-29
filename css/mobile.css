@@ -2,35 +2,61 @@
 
   body {
     font-family: sans-serif;
-    font-size: 24px;
+    font-size: 18px;
+    padding: 0;
+    line-height: 1.5;
+    text-align: left;
+    width: 320px;
+    margin: 0;
   }
 
-  p, address {
+  p {
     line-height: 1.5;
   }
 
-  #wrapper {
+  #container {
     border: 0;
-    max-width: 320px;
+    width: 300px;
     margin: 0;
-    padding: 0.5em;
+    padding: 10px;
+    float: none;
+  }
+
+  h2, h3, h4 {
+    color: black;
+    line-height: 1;
+  }
+
+  nav {
+    margin: 0 auto;
+    width: 100px;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
   }
 
   header h1 {
     font-size: 125%;
-    line-height: 1.5;
-  }
-
-  header span {
-    display: inline;
+    line-height: 1.8;
   }
 
   img.mobile {
-    width: 24px;
+    width: 300px;
     height: auto;
     vertical-align: middle;
   }
 
-
+  img.home {
+    display:none;
   }
+
+  img.layoutpic, img.writtenpic {
+    display: middle;
+    width: 300px;
+  }
+#layout img {
+  width: 300px;
+  height: auto;
+}
+
+
 }
